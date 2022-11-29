@@ -517,10 +517,14 @@ img {
 }
 
 .skills_js {
-    width: 60%;
+    width: 70%;
 }
 
-.skills_jquery {
+.skills_react {
+    width: 65%;
+}
+
+.skills_tailwind {
     width: 85%;
 }
 
