@@ -9,7 +9,7 @@ const Header = () => {
                 <div className="avatar">
                     <div className="w-16 my-5 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2 ">
                         <Link to='/'>
-                            <img src={person} />
+                            <img alt='' src={person} />
                         </Link>
                     </div>
                 </div>

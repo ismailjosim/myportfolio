@@ -15,7 +15,7 @@ const Portfolio = () => {
                             <h3 className="portfolio_title">Modern Website</h3>
                             <p className="portfolio_description">Website adaptable to all devices, with ui components and
                                 animated interactions.</p>
-                            <a href="#" className="button button-flex button-small portfolio_button">
+                            <a href="/" className="button button-flex button-small portfolio_button">
                                 Demo
                                 <i className="uil uil-arrow-right button_icon"></i>
                             </a>
@@ -25,12 +25,11 @@ const Portfolio = () => {
                     <div className="portfolio_content grid swiper-slide">
                         <img src="assets/img/portfolio2.jpg" alt="portfolio" className="portfolio_img" />
 
-
                         <div className="portfolio_data">
                             <h3 className="portfolio_title">Brand Design</h3>
                             <p className="portfolio_description">Website adaptable to all devices, with ui components and
                                 animated interactions.</p>
-                            <a href="#" className="button button-flex button-small portfolio_button">
+                            <a href="/" className="button button-flex button-small portfolio_button">
                                 Demo
                                 <i className="uil uil-arrow-right button_icon"></i>
                             </a>
@@ -45,7 +44,7 @@ const Portfolio = () => {
                             <h3 className="portfolio_title">Online Store</h3>
                             <p className="portfolio_description">Website adaptable to all devices, with ui components and
                                 animated interactions.</p>
-                            <a href="#" className="button button-flex button-small portfolio_button">
+                            <a href="/" className="button button-flex button-small portfolio_button">
                                 Demo
                                 <i className="uil uil-arrow-right button_icon"></i>
                             </a>
