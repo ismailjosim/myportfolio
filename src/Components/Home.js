@@ -5,8 +5,8 @@ import ReactTyped from 'react-typed';
 const Home = () => {
     return (
         <div>
-            <div className="hero min-h-screen" style={{ backgroundImage: `url("https://placeimg.com/1000/800/arch")` }}>
-                <div className="hero-overlay bg-opacity-60"></div>
+            <div className="hero min-h-screen" style={{ backgroundImage: `url("cat-typing-laptop.jpg")` }}>
+                <div className="hero-overlay bg-opacity-65"></div>
                 <div className="hero-content text-center text-neutral-content">
                     <div className="max-w-lg">
                         <h2 className="text-5xl font-bold">Hello! I'm</h2>
@@ -16,7 +16,7 @@ const Home = () => {
                             strings={[
                                 `I'm a Developer`,
                                 `I'm a Content Creator`,
-                                `I'm a Blogger'`
+                                `I'm a Blogger`
                             ]}
                             typeSpeed={40}
                             backSpeed={50}

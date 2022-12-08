@@ -4,8 +4,8 @@ import Header from '../Components/Header';
 
 const Main = () => {
     return (
-        <div className='grid grid-cols-12'>
-            <div className='col-span-1 bg-primary'>
+        <div className='grid lg:grid-cols-12'>
+            <div className='lg:col-span-1 lg:block hidden bg-primary'>
                 <Header />
             </div>
             <div className='col-span-11'>

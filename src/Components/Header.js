@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <div>
+        <div className='fixed ml-5'>
             <div className='text-center text-white'>
                 <div className="avatar">
                     <div className="w-16 my-5 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2 ">
