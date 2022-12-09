@@ -14,9 +14,9 @@ const Home = () => {
                         <ReactTyped
                             className='text-4xl font-medium'
                             strings={[
-                                `I'm a Developer`,
-                                `I'm a Content Creator`,
-                                `I'm a Blogger`
+                                `I'm a Developer `,
+                                `I'm a Content Creator `,
+                                `I'm a Blogger `
                             ]}
                             typeSpeed={40}
                             backSpeed={50}
