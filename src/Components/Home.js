@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactTyped from 'react-typed';
+import { Link } from 'react-router-dom';
 
 
 const Home = () => {
@@ -23,7 +24,13 @@ const Home = () => {
                             loop
                         >
                         </ReactTyped>
-                        <p className=' mt-5 text-xl'>Live In Barisal, Bangladesh</p>
+                        <div className='mt-5 flex gap-5 justify-center'>
+                            <Link to='/contact' className='btn btn-primary text-white'>Hire Now</Link>
+                            <a
+                                href='https://drive.google.com/file/d/1gGJOpYpagTsuX3ITCBZIgmQiSCag5yXL/view?usp=share_link'
+                                target='_blank'
+                                className='btn btn-warning text-white' rel="noreferrer">View Resume</a>
+                        </div>
 
                     </div>
                 </div>

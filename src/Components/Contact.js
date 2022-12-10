@@ -35,20 +35,20 @@ const Contact = () => {
                 <form action="mailto:ismailjosim99@gmail.com" className="contact_form grid">
                     <div className="contact_inputs grid">
                         <div className="contact_content">
-                            <label for="name" className="contact_label">Name</label>
+                            <label htmlFor="name" className="contact_label">Name</label>
                             <input type="text" className="contact_input" />
                         </div>
                         <div className="contact_content">
-                            <label for="email" className="contact_label">Email</label>
+                            <label htmlFor="email" className="contact_label">Email</label>
                             <input type="email" className="contact_input" />
                         </div>
                     </div>
                     <div className="contact_content">
-                        <label for="project" className="contact_label">Project</label>
+                        <label htmlFor="project" className="contact_label">Project</label>
                         <input type="text" className="contact_input" />
                     </div>
                     <div className="contact_content">
-                        <label for="" className="contact_label">Message</label>
+                        <label htmlFor="" className="contact_label">Message</label>
                         <textarea name="message" id="" cols="0" rows="7" className="contact_input"></textarea>
                     </div>
                     <div>
