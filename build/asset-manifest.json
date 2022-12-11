@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.06368e06.css",
-    "main.js": "/static/js/main.5f5fc9ee.js",
+    "main.css": "/static/css/main.9d31ed73.css",
+    "main.js": "/static/js/main.321fe8f6.js",
     "static/media/Passport Size Photograph-min.jpg": "/static/media/Passport Size Photograph-min.a6700d69dbbff5ad2bbd.jpg",
     "index.html": "/index.html",
-    "main.06368e06.css.map": "/static/css/main.06368e06.css.map",
-    "main.5f5fc9ee.js.map": "/static/js/main.5f5fc9ee.js.map"
+    "main.9d31ed73.css.map": "/static/css/main.9d31ed73.css.map",
+    "main.321fe8f6.js.map": "/static/js/main.321fe8f6.js.map"
   },
   "entrypoints": [
-    "static/css/main.06368e06.css",
-    "static/js/main.5f5fc9ee.js"
+    "static/css/main.9d31ed73.css",
+    "static/js/main.321fe8f6.js"
   ]
 }

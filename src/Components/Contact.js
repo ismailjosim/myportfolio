@@ -16,8 +16,8 @@ const Contact = () => {
             <div className="min-h-screen">
                 <SectionHeader headTitle={'Contact'} subTitle={'Get In Touch'}></SectionHeader>
                 <div className='mt-10'>
-                    <section className="contact container contact" id="contact">
-                        <div className="contact_container container grid">
+                    <section className="w-8/12 mx-auto">
+                        <div className="grid grid-cols-2">
                             <div className='flex flex-col gap-10'>
                                 <div className="flex items-center gap-3">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-6 h-6">
@@ -52,29 +52,32 @@ const Contact = () => {
                                     </div>
                                 </div>
                             </div>
-                            <form action="mailto:ismailjosim99@gmail.com" className="contact_form grid">
-                                <div className="contact_inputs grid">
-                                    <div className="contact_content">
-                                        <label htmlFor="name" className="contact_label">Name</label>
-                                        <input type="text" className="contact_input" />
+                            <form action="mailto:ismailjosim99@gmail.com" className="grid text-white gap-5">
+                                <div className="grid grid-cols-2 gap-5">
+                                    <div className="bg-primary rounded-lg px-4 pt-3 pb-1">
+                                        <label htmlFor="name">Name</label>
+                                        <input type="text" className="w-full bg-primary outline-none text-white border-0 pt-3 pb-1" />
                                     </div>
-                                    <div className="contact_content">
-                                        <label htmlFor="email" className="contact_label">Email</label>
-                                        <input type="email" className="contact_input" />
+                                    <div className="bg-primary rounded-lg px-4 pt-3 pb-1">
+                                        <label htmlFor="email">Email</label>
+                                        <input type="email" className="w-full bg-primary outline-none text-white border-0 pt-3 pb-1" />
                                     </div>
                                 </div>
-                                <div className="contact_content">
-                                    <label htmlFor="project" className="contact_label">Project</label>
-                                    <input type="text" className="contact_input" />
+                                <div className="bg-primary rounded-lg px-4 pt-3 pb-1">
+                                    <label htmlFor="project">Project</label>
+                                    <input type="text" className="w-full bg-primary outline-none text-white border-0 pt-3 pb-1" />
                                 </div>
-                                <div className="contact_content">
-                                    <label htmlFor="" className="contact_label">Message</label>
-                                    <textarea name="message" id="" cols="0" rows="7" className="contact_input"></textarea>
+                                <div className="bg-primary rounded-lg px-4 pt-3 pb-1">
+                                    <label htmlFor="message">Message</label>
+                                    <textarea name="message" id="" cols="0" rows="7" className="w-full bg-primary outline-none text-white border-0 pt-3 pb-1"></textarea>
                                 </div>
                                 <div>
-                                    <a href="mailto:ismailjosim99@gmail.com" className="button button-flex">
-                                        Send Message
-                                        <i className="uil uil-message button_icon"></i>
+                                    <a href="mailto:ismailjosim99@gmail.com" className="btn btn-primary text-white">
+                                        <span className='mr-2'>Send Message</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-6 h-6">
+                                            <path strokeLinecap="round" strokeLinejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" />
+                                        </svg>
+
                                     </a>
                                 </div>
                             </form>
