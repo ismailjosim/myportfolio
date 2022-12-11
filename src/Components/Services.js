@@ -29,8 +29,8 @@ const Services = () => {
                         </div>
                         <div>
                             <h3 className='text-2xl font-semibold text-primary'>Backend Developer</h3>
-                            <p className='w-3/4 text-justify'>
-                                I have experience in HTML, CSS, Bootstrap 5, Tailwind CSS, React JS. I am also familiar with Redux & Next JS.
+                            <p className='w-3/4'>
+                                I have experience in Node JS, Express JS, MongoDB Database. knowledge in Vercel, firebase authentication, JWT Authorization.
                             </p>
                         </div>
                     </div>
@@ -43,21 +43,7 @@ const Services = () => {
                         <div>
                             <h3 className='text-2xl font-semibold text-primary'>MERN Stack Developer</h3>
                             <p className='w-3/4 text-justify'>
-                                I have experience in HTML, CSS, Bootstrap 5, Tailwind CSS, React JS. I am also familiar with Redux & Next JS.
-                            </p>
-                        </div>
-                    </div>
-                    <div className='flex items-center gap-5'>
-                        <div>
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-16 text-primary">
-                                <path strokeLinecap="round" d="M15.75 10.5l4.72-4.72a.75.75 0 011.28.53v11.38a.75.75 0 01-1.28.53l-4.72-4.72M4.5 18.75h9a2.25 2.25 0 002.25-2.25v-9a2.25 2.25 0 00-2.25-2.25h-9A2.25 2.25 0 002.25 7.5v9a2.25 2.25 0 002.25 2.25z" />
-                            </svg>
-
-                        </div>
-                        <div>
-                            <h3 className='text-2xl font-semibold text-primary'>Video Editing</h3>
-                            <p className='w-3/4 text-justify'>
-                                I have experience in HTML, CSS, Bootstrap 5, Tailwind CSS, React JS. I am also familiar with Redux & Next JS.
+                                Mainly I build website using The main Technologies in MERN Stack where i use MongoDB for Database. Node and Express Js for backend and React JS for Frontend.
                             </p>
                         </div>
                     </div>
@@ -68,114 +54,3 @@ const Services = () => {
 };
 
 export default Services;
-
-// <section className="services section">
-//     <h2 className="section_title">Services</h2>
-//     <span className="section_subtitle">What I Offer</span>
-//     <div className="services_container container grid">
-
-//         <div className="services_content">
-//             <div>
-//                 <i className="uil uil-web-grid services_icon"></i>
-//                 <h3 className="services_title">UI/UX <br /> Designer</h3>
-//             </div>
-
-//             <span className="button button-flex button-small button-link services_button">
-//                 View More <i className="uil uil-arrow-right button_icon"></i>
-//             </span>
-
-
-//             <div className="services_modal">
-//                 <div className="services_modal-content">
-//                     <h4 className="services_modal-title">UI/UX <br /> Desinger</h4>
-//                     <i className="uil uil-times services_modal-close"></i>
-//                     <ul className="services_modal-services grid">
-//                         <li className="services_modal-service">
-//                             <i className="uil uil-check-circle servies_modal-icon"></i>
-//                             <p>I develop the user interface.</p>
-//                         </li>
-//                         <li className="services_modal-service">
-//                             <i className="uil uil-check-circle servies_modal-icon"></i>
-//                             <p>Web page development.</p>
-//                         </li>
-//                         <li className="services_modal-service">
-//                             <i className="uil uil-check-circle servies_modal-icon"></i>
-//                             <p>I create ux element interactions.</p>
-//                         </li>
-//                         <li className="services_modal-service">
-//                             <i className="uil uil-check-circle servies_modal-icon"></i>
-//                             <p>I position your company brand.</p>
-//                         </li>
-//                     </ul>
-//                 </div>
-//             </div>
-//         </div>
-//         <div className="services_content">
-//             <div>
-//                 <i className="uil uil-brackets-curly services_icon"></i>
-//                 <h3 className="services_title">Frontend <br /> Developer</h3>
-//             </div>
-
-//             <span className="button button-flex button-small button-link services_button">
-//                 View More <i className="uil uil-arrow-right button_icon"></i>
-//             </span>
-//             <div className="services_modal">
-//                 <div className="services_modal-content">
-//                     <h4 className="services_modal-title">Frontend <br /> Developer</h4>
-//                     <i className="uil uil-times services_modal-close"></i>
-//                     <ul className="services_modal-services grid">
-//                         <li className="services_modal-service">
-//                             <i className="uil uil-check-circle servies_modal-icon"></i>
-//                             <p>I develop the user interface.</p>
-//                         </li>
-//                         <li className="services_modal-service">
-//                             <i className="uil uil-check-circle servies_modal-icon"></i>
-//                             <p>Web page development.</p>
-//                         </li>
-//                         <li className="services_modal-service">
-//                             <i className="uil uil-check-circle servies_modal-icon"></i>
-//                             <p>I create ux element interactions.</p>
-//                         </li>
-//                         <li className="services_modal-service">
-//                             <i className="uil uil-check-circle servies_modal-icon"></i>
-//                             <p>I position your company brand.</p>
-//                         </li>
-//                     </ul>
-//                 </div>
-//             </div>
-//         </div>
-//         <div className="services_content">
-//             <div>
-//                 <i className="uil uil-pen services_icon"></i>
-//                 <h3 className="services_title">Branding <br /> Designer</h3>
-//             </div>
-//             <span className="button button-flex button-small button-link services_button">
-//                 View More <i className="uil uil-arrow-right button_icon"></i>
-//             </span>
-//             <div className="services_modal">
-//                 <div className="services_modal-content">
-//                     <h4 className="services_modal-title">Branding <br /> Designer</h4>
-//                     <i className="uil uil-times services_modal-close"></i>
-//                     <ul className="services_modal-services grid">
-//                         <li className="services_modal-service">
-//                             <i className="uil uil-check-circle servies_modal-icon"></i>
-//                             <p>I develop the user interface.</p>
-//                         </li>
-//                         <li className="services_modal-service">
-//                             <i className="uil uil-check-circle servies_modal-icon"></i>
-//                             <p>Web page development.</p>
-//                         </li>
-//                         <li className="services_modal-service">
-//                             <i className="uil uil-check-circle servies_modal-icon"></i>
-//                             <p>I create ux element interactions.</p>
-//                         </li>
-//                         <li className="services_modal-service">
-//                             <i className="uil uil-check-circle servies_modal-icon"></i>
-//                             <p>I position your company brand.</p>
-//                         </li>
-//                     </ul>
-//                 </div>
-//             </div>
-//         </div>
-//     </div>
-// </section>
