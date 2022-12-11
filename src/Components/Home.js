@@ -29,7 +29,8 @@ const Home = () => {
                             <a
                                 href='https://drive.google.com/file/d/1gGJOpYpagTsuX3ITCBZIgmQiSCag5yXL/view?usp=share_link'
                                 target='_blank'
-                                className='btn btn-warning text-white' rel="noreferrer">View Resume</a>
+                                className='btn btn-warning text-white' rel="noreferrer"
+                            >View Resume</a>
                         </div>
 
                     </div>
