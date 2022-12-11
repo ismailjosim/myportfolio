@@ -29,9 +29,14 @@ const About = () => {
                             loop
                         >
                         </ReactTyped>
-                        <p>
-                            Web developer, with extensive knowledge and more than 3 years of experience, working in web technologies and Ui / Ux design, delivering quality work.
-                        </p>
+                        <div className='flex flex-col gap-5 my-5'>
+                            <p>
+                                I'm a web developer and learner with a keen knowledge of programming. Currently, I Completed my graduation from National University. I'm passionate about learning new things and sharing with others. I love to solve both coding & Real world problems throughout my work.
+                            </p>
+                            <p>
+                                have enough knowledge of developing websites and also making them fully responsive. I have experience in HTML, CSS, Bootstrap 5, Tailwind CSS, React JS, Node JS, and MongoDB. I am also familiar with Redux & Next JS.
+                            </p>
+                        </div>
                         <div className="stats mt-5">
                             <div className="stat place-items-center">
                                 <div className=" stat-value">03+</div>
@@ -62,7 +67,6 @@ const About = () => {
 
             </div>
         </div>
-
     );
 };
 
