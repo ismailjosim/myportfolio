@@ -3,11 +3,6 @@ import SectionHeader from './utilities/SectionHeader';
 import '../styles/contact.css'
 
 
-// .contact_icon {
-//     font-size: 2rem;
-//     color: var(--first - color);
-//     margin - right: var(--mb - 0 - 75);
-// }
 
 
 const Contact = () => {

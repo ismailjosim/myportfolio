@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <div className='fixed ml-5'>
+        <div className='fixed'>
             <div className='text-center text-white'>
                 <div className="avatar">
                     <div className="w-16 my-5 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2 ">
@@ -15,6 +15,7 @@ const Header = () => {
                 </div>
                 <h2 className='font-medium text-xl'>JASIM</h2>
             </div>
+
             <div>
                 <ul className='flex flex-col gap-10 justify-center items-center text-white mt-16'>
                     <li>
@@ -62,9 +63,7 @@ const Header = () => {
                     </li>
                 </ul>
             </div>
-            <div className='absolute bottom-2'>
 
-            </div>
         </div>
     );
 };
